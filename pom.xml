@@ -63,6 +63,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<!-- The <dependencyManagement> section manages versions for Spring Cloud dependencies, which are not covered by spring-boot-starter-parent. -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
